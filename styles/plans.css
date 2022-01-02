@@ -1,0 +1,29 @@
+/****************************************/
+/* Plans Section */
+/***************************************/
+
+.section-plans {
+  padding: 9.6rem 0;
+}
+
+.plan-title {
+  font-size: 2.4rem;
+  column-gap: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.plan-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+}
+
+.plans img {
+  width: 100%;
+}
