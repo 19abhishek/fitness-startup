@@ -168,3 +168,57 @@ body {
 .logo-image {
   height: 6rem;
 }
+
+/****************************************/
+/* HOW IT WORKS SECTION  */
+/***************************************/
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.container {
+  width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto; /* Applies same margin to left and right which makes content look centered */
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/****************************************/
+/* Heading */
+/***************************************/
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 8rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+/****************************************/
+/* Step Img */
+/***************************************/
+
+.step-img {
+  width: 100%;
+}
