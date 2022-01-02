@@ -240,3 +240,7 @@ body {
 .step-description {
   font-size: 1.6em;
 }
+
+strong {
+  font-weight: 500;
+}

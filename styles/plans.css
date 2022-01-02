@@ -6,11 +6,31 @@
   padding: 9.6rem 0;
 }
 
+.plans {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  background-color: #69db7c;
+  border-radius: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
 .plan-title {
   font-size: 2.4rem;
   column-gap: #333;
   font-weight: 600;
   margin-bottom: 3.2rem;
+}
+
+.plan-content {
+  padding: 1.8rem;
 }
 
 .plan-attributes {
@@ -20,10 +40,25 @@
   gap: 1.8rem;
 }
 
-.meal-attribute {
+.plan-attributes {
   font-size: 1.8rem;
 }
 
 .plans img {
   width: 100%;
+}
+
+.plan-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.plan-attribute-value {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.medium-tag {
+  background-color: #ffa94d;
 }
