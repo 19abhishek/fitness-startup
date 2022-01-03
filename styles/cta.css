@@ -1,0 +1,20 @@
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #dee2e6;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+
+  background-image: linear-gradient(to right, #9b9ea1, #dee2e6);
+
+  height: 50rem;
+}
+
+.cta-text-box {
+}
+
+.cta-image-box {
+  background-image: url(../cta1.jpeg);
+  background-size: cover;
+}
