@@ -1,0 +1,77 @@
+/****************************************/
+/* Pricing Section  */
+/***************************************/
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  background-color: #dee2e6;
+  border-radius: 12px;
+  padding: 4.8rem;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+}
+
+.pricing-plan--pro {
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--pro::after {
+  content: "Best value";
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  top: 4.6rem;
+  right: -7rem;
+  background-color: #777;
+  color: white;
+  padding: 0.8rem 8rem;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #777;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+
+.plan-pricing {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1.6rem;
+}
+
+.pricing-time {
+  font-size: 2.4rem;
+}
+
+.plan-pricing span {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
