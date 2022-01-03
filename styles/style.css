@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #69676788;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -79,7 +84,7 @@ body {
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
-
+.btn,
 .btn:visited,
 .btn:link {
   display: inline-block;
@@ -89,6 +94,11 @@ body {
   border-radius: 1rem;
   transition: all 0.5s;
   font-weight: 500;
+
+  /* For .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn-full:link,
