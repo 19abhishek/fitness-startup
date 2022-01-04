@@ -196,7 +196,7 @@ body {
 .grid {
   display: grid;
   gap: 9.6rem;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .grid:not(:last-child) {

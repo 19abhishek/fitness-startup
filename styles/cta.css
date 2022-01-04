@@ -1,3 +1,7 @@
+.section-cta {
+  padding: 9.6rem 0 12.8rem !important;
+}
+
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
