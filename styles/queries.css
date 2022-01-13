@@ -60,10 +60,6 @@
   * {
     max-width: 100vw;
   }
-
-  .footer {
-    border: 2px solid red;
-  }
 }
 
 @media (max-width: 63.25em) {
@@ -101,7 +97,7 @@
   .plan-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
-  .section-testimonials {
+  .section-testimonial {
     grid-template-columns: 1fr;
   }
 
@@ -191,7 +187,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .diets {
+  .plans-list {
     grid-column: 1 / -1;
     justify-self: center;
   }
@@ -253,10 +249,6 @@
     width: 80%;
   }
 
-  .logos img {
-    height: 1.2rem;
-  }
-
   .step-img-box:nth-child(2) {
     grid-row: 1;
   }
@@ -286,7 +278,7 @@
     padding: 3.2rem;
   }
 
-  .cta-img-box {
+  .cta-image-box {
     height: 32rem;
     grid-row: 1;
   }
