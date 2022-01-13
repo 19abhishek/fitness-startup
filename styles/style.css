@@ -38,6 +38,10 @@ body {
   gap: 9.6rem;
 }
 
+.favicon {
+  border-radius: 50%;
+}
+
 .heading-primary {
   font-size: 4.8rem;
   font-weight: 700;
@@ -145,6 +149,17 @@ body {
   display: none;
 }
 
+/* STICKY NAV */
+/* 
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 9999;
+} */
+
 /* HERO SECTION */
 
 .hero-img {
@@ -194,7 +209,6 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #dee2e6;
-  position: relative;
 
   height: 9.6rem;
   padding: 0 4.8rem;
