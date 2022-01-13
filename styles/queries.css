@@ -56,9 +56,33 @@
   } */
 }
 
+@media (max-width: 67em) {
+  * {
+    max-width: 100vw;
+  }
+
+  .footer {
+    border: 2px solid red;
+  }
+}
+
+@media (max-width: 63.25em) {
+  html {
+    overflow-x: hidden;
+  }
+  .step-number {
+    font-size: 7.2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 59em) {
   html {
     font-size: 50%;
+    overflow-x: hidden;
   }
   .hero {
     grid-template-columns: 1fr;
