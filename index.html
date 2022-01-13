@@ -26,20 +26,27 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script src="./script/script.js" defer></script>
     <title>FIT-IN</title>
   </head>
   <body>
-    <header class="header nav-open">
+    <header class="header">
       <a href="#">
         <img class="logo-image" src="./image/logo3.png" alt="Fit-In Logo"
       /></a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="">How it works</a></li>
-          <li><a class="main-nav-link" href="">Plans</a></li>
-          <li><a class="main-nav-link" href="">Testimonials</a></li>
-          <li><a class="main-nav-link" href="">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="">Free Trial</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#plans">Plans</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Free Trial</a></li>
         </ul>
       </nav>
       <button class="btn-mobile-nav">
@@ -58,10 +65,10 @@
               The smart 365-days-per-year fitness subscription. Tailored to your
               personal health and nutritional needs.
             </p>
-            <a href="#" class="btn btn-full margin-right-sm"
+            <a href="#cta" class="btn btn-full margin-right-sm"
               >Start Getting Fit</a
             >
-            <a href="#" class="btn btn-outline">Learn More &darr;</a>
+            <a href="#how" class="btn btn-outline">Learn More &darr;</a>
             <div class="customers">
               <div class="customer-images">
                 <img src="./image/customers/c1.jpg" alt="Customer Images" />
@@ -82,7 +89,7 @@
           </div>
         </div>
       </section>
-      <section class="section-how">
+      <section class="section-how" id="how">
         <!-- Step 1 -->
         <div class="container">
           <span class="subheading">How it works</span>
@@ -160,7 +167,7 @@
           </div>
         </div>
       </section>
-      <section class="section-plans">
+      <section class="section-plans" id="plans">
         <div class="container center-text">
           <span class="heading-tertiary">Plans</span>
           <h2 class="heading-secondary">
@@ -287,7 +294,7 @@
         </div>
       </section>
 
-      <section class="section-testimonial">
+      <section class="section-testimonial" id="testimonials">
         <div class="testimonial-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
@@ -431,7 +438,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">Fitness without breaking the bank</h2>
@@ -508,7 +515,7 @@
           </aside>
         </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -584,17 +591,18 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; 2027 by FIT-IN, Inc. All rights reserved.
+            Copyright &copy; <span class="year">2027</span> by FIT-IN, Inc. All
+            rights reserved.
           </p>
         </div>
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
             <p class="address">
-              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+              Express Avenue, 2nd Floor, Banglore, KA 610232
             </p>
             <p>
-              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              <a class="footer-link" href="tel:415-201-6370">9999932491</a
               ><br />
               <a class="footer-link" href="mailto:hello@omnifood.com"
                 >hello@fitin.com</a

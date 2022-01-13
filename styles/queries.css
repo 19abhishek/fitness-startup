@@ -121,6 +121,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -279,7 +280,7 @@
   }
 
   .cta-image-box {
-    height: 32rem;
+    height: 48rem;
     grid-row: 1;
   }
 }

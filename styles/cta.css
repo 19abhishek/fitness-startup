@@ -30,6 +30,7 @@
 .cta-image-box {
   background-image: url(../cta1.jpeg);
   background-size: cover;
+  object-fit: contain;
 }
 
 .cta-form {
